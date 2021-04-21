@@ -18,5 +18,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl expose deployment mlmicroservice --type=LoadBalancer --port=80
-minikube service mlmicroservice
+kubectl port-forward mlmicroservice 8000:80
