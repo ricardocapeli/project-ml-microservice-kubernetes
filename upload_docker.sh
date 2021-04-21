@@ -12,7 +12,7 @@ dockerpath=mlmicroservice
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login --username ricardofcapeli
-docker tag udacitymicroservice ricardofcapeli/mlmicroservice:latest
+docker tag mlmicroservice ricardofcapeli/mlmicroservice:latest 
 
 # Step 3:
 # Push image to a docker repository
